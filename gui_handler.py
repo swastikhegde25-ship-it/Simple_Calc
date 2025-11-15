@@ -1,4 +1,5 @@
 # gui_handler.py
+# this is the main file to be runned
 import tkinter as tk
 import functions
 
@@ -57,5 +58,6 @@ for i in range(5): # 5 rows (0 for display, 1-4 for buttons)
     root.grid_rowconfigure(i, weight=1)
 for i in range(4): # 4 columns
     root.grid_columnconfigure(i, weight=1)
+
 
 root.mainloop()
